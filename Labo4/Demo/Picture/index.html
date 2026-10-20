@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>Images</h1>
+
+<!--<img src="image/bamboo.jpg" height="200" width="150" alt="bamboo"/>-->
+<!--nooit met height en width. gebruik paint om de fotos te verkleinen-->
+
+
+<img src="image/bamboo.jpg" alt="bamboo"/>
+
+<h1>The picture element</h1>
+
+<p>Resize the browser window to load different images.</p>
+
+<picture>
+
+    <source media="(max-width:650px)" srcset="image/bamboo.jpg"/>
+
+    <img src="image/shark.jpg" height="197" width="250" alt="shark"/>
+</picture>
+</body>
+</html>
